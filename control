@@ -1,0 +1,9 @@
+Package: com.ziph0n.prayforparis
+Name: PrayForParis
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Just to remember what happened on the 11/13/2015
+Maintainer: Ziph0n
+Author: Ziph0n
+Section: Tweaks

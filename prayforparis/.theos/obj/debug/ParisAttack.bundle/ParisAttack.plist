@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ziph0n.parisattack</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Options</string>
+			<key>footerText</key>
+			<string>English: 11/13/2015 - #PrayForParis</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.ziph0n.parisattack</string>
+			<key>key</key>
+			<string>language</string>
+			<key>validValues</key>
+				<array>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			<key>validTitles</key>
+				<array>
+					<string>English</string>
+					<string>Other</string>
+				</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Other: 13/11/2015 - #PrayForParis</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you use another date string in your language, please contact me</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>How can I help the victims?</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>redcross</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate to the Red Cross</string>
+		</dict>	
+		<dict>
+			<key>action</key>
+			<string>secoursCatholique</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate to The Secours Catholique-Caritas France</string>
+		</dict>	
+		<dict>
+			<key>action</key>
+			<string>secoursPopulaire</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate to The French Secours Populaire</string>
+		</dict>	
+		<dict>
+			<key>action</key>
+			<string>friends</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate to Friends Of Fondation De France, Inc.</string>
+		</dict>	
+		<dict>
+			<key>action</key>
+			<string>resto</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate to Restaurants Du Coeur</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sourceOnGithub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source Code on GitHub</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on Twitter (@Ziph0n)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sendEmail</string>
+			<key>icon</key>
+			<string>mail.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Email Support</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>reddit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+			<key>label</key>
+			<string>Find me on Reddit (/u/Ziph0n)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2015 Ziph0n (@Ziph0n)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>BatteryFlow</string>
+</dict>
+</plist>

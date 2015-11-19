@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ziph0n.prayforparis</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Options</string>
+			<key>footerText</key>
+			<string>English: 11/13/2015 - #PrayForParis</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.ziph0n.prayforparis</string>
+			<key>key</key>
+			<string>language</string>
+			<key>validValues</key>
+				<array>
+					<integer>1</integer>
+					<integer>2</integer>
+				</array>
+			<key>validTitles</key>
+				<array>
+					<string>English</string>
+					<string>Other</string>
+				</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Other: 13/11/2015 - #PrayForParis</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you use another date string in your language, please contact me.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Summary of what happened:</string>
+			<key>footerText</key>
+			<string>On the evening of 13 November 2015, a series of coordinated terrorist attacks—consisting of mass shootings, suicide bombings, and hostage-taking—occurred in Paris, the capital of France, and its northern suburb, Saint-Denis. Beginning at 21:20 CET, there were three suicide bombings outside the Stade de France, along with mass shootings and another suicide bombing at four locations near central Paris. The deadliest attack was at the Bataclan theatre, where the attackers took hostages before engaging in a stand-off with police until 00:58 on 14 November. The attacks killed 129 people, 89 of whom were at the Bataclan theatre. 352 people were admitted to hospital with injuries sustained in the attacks, including 80 described as being critically injured. In addition to the victims, seven attackers died, and the authorities continued to search for any accomplices still at large. On 18 November, the suspected mastermind of the attacks, Abdelhamid Abaaoud, a Belgian, was killed in a raid by French police.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The Islamic State of Iraq and the Levant (ISIL) claimed responsibility for the attacks, and French President François Hollande stated that he considered the attack to be "an act of war" carried out by ISIL, "planned in Syria, organised in Belgium, perpetrated on our soil with French complicity". France had been on high alert since the January 2015 attacks in Paris (Charlie Hebdo) that killed 17 people, including civilians and police officers.</string>
+		</dict>
+			<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>In response, a state of emergency was declared, the first since the 2005 riots, and temporary controls were placed on the country's borders. People and organisations expressed solidarity, some through social media (including #PrayForParis).</string>
+		</dict>
+			<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Source: Wikipedia</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sourceOnGithub</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source Code on GitHub</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>Follow me on Twitter (@Ziph0n)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sendEmail</string>
+			<key>icon</key>
+			<string>mail.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Email Support</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>reddit</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+			<key>label</key>
+			<string>Find me on Reddit (/u/Ziph0n)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2015 Ziph0n (@Ziph0n)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PrayForParis</string>
+</dict>
+</plist>
